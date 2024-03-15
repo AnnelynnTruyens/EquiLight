@@ -1,0 +1,28 @@
+.contact__flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5.1rem 8rem;
+}
+
+.contact__img{
+    width: 50%;
+}
+
+.contact__text{
+    margin-bottom: 2rem;
+}
+
+.contact__button{
+    background-color: var(--700);
+    padding: 0.5rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    color: var(--200);
+    box-shadow: 0 3px 6px var(--700);
+}
+
+.contact__button:hover{
+    box-shadow: 0 3px 6px var(--900);
+}
